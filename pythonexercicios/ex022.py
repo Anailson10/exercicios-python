@@ -1,0 +1,8 @@
+nome = str(input('digite seu nome completo:')).strip()
+anali = input('analisando seu nome...')
+ma = input('seu nome em maiusculo e: {}'.format(nome.upper()))
+mi = input('seu nome em minusculo e: {}'.format(nome.lower()))
+num = input('seu nome tem ao todo: {} '.format(len(nome) - nome.count(' ')))
+#num1 = input('quantas letras tem o primeiro nome: {}'.format(nome.find(' ')))
+separa = nome.split()
+print('o primeiro nome e {} e ele tem {} letras'.format(separa[0], len(separa[0])))
